@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function getIP(json){
+                document.getElementById("id").innerHTML = json.id
+            }
+        </script>
+    </head>
+    <body>
+        <script src="/static/js/jquery.min.js"></script>
+        <p id="ip">일본 해킹</p>
+        <script type="text/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+    </body>
+</html>
